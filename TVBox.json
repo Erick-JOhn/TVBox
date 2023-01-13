@@ -3,8 +3,13 @@
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL3N1bm55L1RWQk9YL3Jhdy9icmFuY2gvbWFzdGVyL3R2L3htLnR4dA=="]}]}],
 
 "sites":[
-        {"key":"csp_Kuaikan","name":"好用 |快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"csp_Kunyu77","name":"影视 |七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1}
+        {"key":"csp_Kuaikan","name":"奇奥 | 视源","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣","type":3,"api":"https://gitee.com/Erick-JOhn/tvbox/raw/master/lib/drpy2.min.js","ext":"https://gitee.com/Erick-JOhn/tvbox/raw/master/js/drpy.js"},
+        {"key":"drpy_js_兔小贝","name":"兔小贝","type":3,"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js","ext":"https://ghproxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/drpy/js/兔小贝.js"},
+        {"key":"幼儿乐园","name":"幼儿乐园","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/json/幼儿乐园.json"},
+        {"key":"小学课堂","name":"小学课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/json/小学课堂.json"},
+        {"key": "dr_哔哩影视","name": "哔哩 | 影视","type": 3,"api": "./drpy.min.js","searchable": 2,"quickSearch": 0,"filterable": 0,"ext": "./哔哩影视.js"},
+        {"key": "MV","name": "💽歌曲MV〔合集〕","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./歌曲MV.json"}
 ],
 
 "parses":[
